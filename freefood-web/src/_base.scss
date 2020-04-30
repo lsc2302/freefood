@@ -1,0 +1,18 @@
+$background-color:darkorange;
+$primary-color:white;
+$login-background-color:orange;
+$button-background-color:red;
+$page-height:100vh;
+$page-width:100vw;
+.message{
+  position: fixed !important;
+  top:1vh !important;
+  left:5vw;
+  width:90vw;
+}
+.HomeMiddle {
+  background-color: white;
+  height:80%;
+  width:100%;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+@import "../../base";
+.HomeFooter {
+    background-color: $background-color;
+    height:10%;
+    width:100%;
+    padding:0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

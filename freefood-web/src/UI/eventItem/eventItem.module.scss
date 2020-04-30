@@ -1,0 +1,29 @@
+.Post{
+  width:80vw !important;
+  margin-left: 10vw !important;
+  text-align: left;
+}
+
+.PostIcon{
+  opacity: 50%;
+  height:100%;
+  width:1em;
+  margin-right: 0.5em !important;
+}
+
+.PostImage{
+  float: left;
+  height:4em;
+  width:4em;
+  margin-right: 2em;
+}
+
+.PostHeader{
+  height:2em;
+  line-height: 2em;
+}
+
+.message{
+  position:relative;
+  margin-bottom: 0 !important;
+}

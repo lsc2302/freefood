@@ -1,0 +1,55 @@
+{
+  "name": "freefood-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "d3": "^5.16.0",
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-calendar-react": "^0.15.3",
+    "semantic-ui-react": "^0.88.2",
+    "store": "^2.0.12",
+    "typescript": "^3.8.3",
+    "typescript-plugin-css-modules": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "defaultExtension": "ts",
+  "proxy": "http://localhost:8000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

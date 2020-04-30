@@ -1,0 +1,53 @@
+@import "../../base";
+
+.Pin{
+    height:$page-height*0.8;
+    width:$page-width;
+    padding-top: 2vh;
+}
+
+.PinIntro{
+    font-size: 1.5em;
+    font-weight:700;
+}
+
+.PinForm{
+    text-align: left;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    height:calc(100% - 4vh);
+    width:90vw;
+    font-size: 1.1em !important;
+}
+
+.PinField{
+    display:flex;
+    align-items: center;
+    .PinInput {
+        flex:1;
+        font-size: 0.8em !important;
+    }
+}
+
+
+
+.PinTime{
+    margin:0 1em !important;
+    input{
+        font-size:0.8em !important;
+        width:30vw !important;
+        display: inline-block !important;
+    }
+}
+
+.PinSubmit{
+    width:calc(100% - 20vw);
+    margin:0 10vw !important;
+    font-size: 1.2em !important;
+
+}
+
+.PinDropdown{
+    flex:1;
+    font-size: 0.7em !important;
+}

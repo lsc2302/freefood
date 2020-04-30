@@ -1,0 +1,14 @@
+@import "../../base";
+.PostsEvent{
+    height:calc(100% - 2vh - 4em);
+    overflow-y: scroll;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.SearchBar{
+    padding-top: 2vh;
+    width:90% !important;
+    margin-left: 5%;
+}
+

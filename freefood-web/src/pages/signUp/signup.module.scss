@@ -1,0 +1,32 @@
+@import "../../base";
+.SignUp{
+    height:$page-height;
+    width:$page-width;
+    padding-top: 20vh;
+    background-color: $login-background-color;
+}
+
+.SignUpForm{
+    margin-left: 10vw;
+}
+
+.label{
+    font-size:xx-small !important;
+    width:20vw !important;
+}
+
+.SignUpButton{
+    width:60vw;
+    margin:5vh 10vw !important;
+    font-size: 1.2em !important;
+    color:$primary-color !important;
+    background-color: $button-background-color !important;
+}
+
+.SignIn{
+    margin-left: 10vw;
+    margin-top: 5vh;
+    text-decoration: underline;
+}
+
+
