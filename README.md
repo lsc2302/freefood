@@ -1,4 +1,8 @@
 # FreeFood App
+
+### Description:
+This is a project aiming at helping universities post free food events and students receive free food events notice. 
+
 ### Tech Stack:
 - Front-end: HTML/CSS/JS,React/Redux,Immutable.js,Typescript, 
 D3.js,semantic-ui, webpack
