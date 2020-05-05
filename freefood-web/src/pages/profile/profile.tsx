@@ -9,12 +9,6 @@ class Profile extends Component<{user:any}> {
         back:false
     };
 
-    componentDidMount(): void {
-        if(!this.props.user.get('id')){
-            window.location.href = '/login'
-        }
-    }
-
     onBack =()=>{
         this.setState({back:true})
     };

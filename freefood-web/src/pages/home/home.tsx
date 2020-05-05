@@ -13,9 +13,6 @@ const mapDispatchToProps= ()=>{
 class Home extends Component<{user:any,mapDispatchToProps:any}> {
 
     componentDidMount(): void {
-        if(!this.props.user.get('id')){
-            window.location.href = '/login'
-        }
         this.props.mapDispatchToProps();
     }
 

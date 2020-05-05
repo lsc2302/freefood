@@ -29,7 +29,7 @@ class Login extends Component<{mapDispatchToProps:any,user:any}>{
         visible:false,
         content:false,
         agree:false,
-        signUp:false
+        signUp:false,
     };
 
     componentDidMount() {
@@ -48,7 +48,6 @@ class Login extends Component<{mapDispatchToProps:any,user:any}>{
             return;
         }
         await this.props.mapDispatchToProps(this.state.username, this.state.password);
-        console.log(this.props.user);
         if(this._isMounted && this.props.user.get("status") !==0){
             this.setState({content:"wrong username or password!"});
             this.setState({visible:true});
@@ -63,13 +62,14 @@ class Login extends Component<{mapDispatchToProps:any,user:any}>{
     handleDismiss = () => {
         this.setState({ visible: false })
     };
+
     componentWillUnmount() {
         this._isMounted = false;
     }
 
 
     render(){
-        if(this.props.user && this.props.user.get('id')){
+        if(this.props.user&&this.props.user.get('id')){
             return <Redirect to='/' />
         }
 
@@ -83,8 +83,8 @@ class Login extends Component<{mapDispatchToProps:any,user:any}>{
                     <Message warning className={classes.message}
                              onDismiss={this.handleDismiss}
                     >
-                    <Message.Header>{this.state.content}</Message.Header>
-                </Message> :<></>}
+                        <Message.Header>{this.state.content}</Message.Header>
+                    </Message> :<></>}
                 <img className={classes.Logo} src={'/images/logo.png'} alt="logo"/>
                 <Form className={classes.LoginForm}>
                     <Form.Field inline>

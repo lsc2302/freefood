@@ -14,10 +14,6 @@ class Report extends Component<{user:any}> {
     };
 
     async componentDidMount(): Promise<any> {
-        if(!this.props.user.get('id')){
-            window.location.href = '/login';
-            return;
-        }
         const userEvent = await showEventUser({username:this.props.user.get('username')});
         let resSet=new Map<string, number>();
         let cateSet=new Set();
